@@ -63,7 +63,8 @@ def convert_numbers(file_path):
             hex_results.append(convert_to_hexadecimal(num))
         except ValueError:
             print(f"Error: El tipo de dato '{number}' no es un número.")
-            decimal_numbers.append('NA')
+            decimal_numbers.append('NA')  #cada que obtengamos una entrada
+            # que no sea numero rellenaremos el espacion con un NA en la lista.
             binary_results.append('NA')
             hex_results.append('NA')
 

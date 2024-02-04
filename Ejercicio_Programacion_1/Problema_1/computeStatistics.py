@@ -48,7 +48,7 @@ def calculate_mode(numbers):
         mode = [k for k, v in counts.items() if v == max(counts.values())]
         return mode
     else:
-        return "Not applicable"
+        return "NO APLICA"
 # Este error fue deshabilitado debido a que si necesitamos especificar que pasara en caso de
 # que no haya una frecuencia de moda mayor a 1.
 
@@ -107,11 +107,12 @@ def main():
             print("VARIANZA:", variance)
 
             with open(f"StatisticsResults_{input_file}.txt", 'w', encoding="utf-8") as result_file:
-                result_file.write(f"Mean: {mean}\n")
-                result_file.write(f"Median: {median}\n")
-                result_file.write(f"Mode: {mode}\n")
-                result_file.write(f"Variance: {variance}\n")
-                result_file.write(f"Standard Deviation: {standard_deviation}\n")
+                result_file.write(f"Conteo: {count}\n")
+                result_file.write(f"Media: {mean}\n")
+                result_file.write(f"Mediana: {median}\n")
+                result_file.write(f"Moda: {mode}\n")
+                result_file.write(f"Varianza: {variance}\n")
+                result_file.write(f"Desv. Estándar: {standard_deviation}\n")
 
         elapsed_time = time.time() - start_time
         print(f"\nTime elapsed: {elapsed_time} seconds")

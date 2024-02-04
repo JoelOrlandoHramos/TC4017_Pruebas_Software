@@ -1,7 +1,8 @@
-Mean: 242.32
-Median: 239.5
-Mode: [393.0, 170.0]
-Variance: 21152.79959899749
-Standard Deviation: 145.44002062361477
+Conteo: 400
+Media: 242.32
+Mediana: 239.5
+Moda: [393.0, 170.0]
+Varianza: 21152.79959899749
+Desv. Estándar: 145.44002062361477
 
-Time elapsed: 0.01743459701538086 seconds
+Time elapsed: 0.015685081481933594 seconds
