@@ -1,0 +1,4 @@
+{"customer": "Joel Hernandez", "hotel": "Hotel Sheraton", "room_number": 101, "start_date": "2024-02-20", "end_date": "2024-02-22"}
+{"customer": "Andrea Acevedo", "hotel": "Hotel Yushima", "room_number": 101, "start_date": "2024-02-20", "end_date": "2024-02-22"}
+{"customer": "Antonio Hernandez", "hotel": "Hotel Yushima", "room_number": 101, "start_date": "2024-02-20", "end_date": "2024-02-25"}
+{"customer": "", "hotel": "Hotel ABC", "room_number": 101, "start_date": "2024-02-20", "end_date": "2024-02-22"}
